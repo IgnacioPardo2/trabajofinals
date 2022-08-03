@@ -1,0 +1,107 @@
+.cuerpo {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin: 0;
+    padding: 0;
+    background-image: url(imagenes/huellas.jpg);
+    background-repeat: repeat-y;
+
+}
+
+.cabecera {
+    text-align: center;
+    grid-column: 1/3;
+    background-image: url(imagenes/cabecera.jpg);
+    background-repeat: no-repeat;
+    background-position: 20px left;
+    background-size: 250px;
+    background-color: rgb(213, 231, 225);
+    padding: 50px;
+    color: chartreuse;
+}
+
+.menu {
+    grid-column: 1/3;
+    text-align: center;
+    list-style: none;
+    font-family: Arial;
+    background-color: rgb(109, 148, 207);
+    color: lime;
+
+}
+
+.articulo {
+    font-size: 25px;
+    font-family: 'Times New Roman';
+    color: lime;
+}
+
+li {
+    display: inline-block;
+    padding: 30px;
+
+
+}
+
+a {
+    color: rgb(233, 226, 220);
+    font-style: normal;
+    font-family: Verdana;
+    text-decoration: none;
+}
+
+aside {
+    background-image: url(imagenes/nosi.jpg);
+    background-position: bottom;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    border-style: double;
+    border-color: blue;
+    text-align: center;
+    font-size: x-large;
+    height: 900px;
+    color: orange;
+    border-width: 5px;
+}
+
+.pie {
+    grid-column: 1/3;
+    background-color: blueviolet;
+    text-align: center;
+}
+
+form {
+    height: 300px;
+    width: 250px;
+    background-color: #edf3f1;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(184, 238, 85);
+    border-radius: 10px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    font-family: Verdana;
+    color: black;
+    font-size: 15px;
+}
+
+.lugar {
+    width: 240px;
+    height: 20px;
+}
+
+.boton {
+    text-align: center;
+    background-color: rgb(59, 236, 89);
+    border-color: greenyellow;
+    width: 250px;
+    height: 40px;
+    font-family: Arial;
+}
+.formularioo{ border: 1px;
+    border-width: 4px;
+
+}

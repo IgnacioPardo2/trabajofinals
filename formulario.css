@@ -1,0 +1,30 @@
+form{
+    height: 300px;
+    width: 250px;
+    background-color:#edf3f1;
+border-width: 5px;
+border-style: solid;
+border-color: rgb(184, 238, 85);
+border-radius: 10px;
+margin-top: 150px;
+margin-bottom: 100px;
+margin-left: auto;
+margin-right: auto;
+padding: 20px;
+font-family: Verdana;
+color: black;
+font-size: 15px;
+}
+.lugar{
+    width: 240px;
+    height: 20px;
+}
+.boton{
+    text-align: center;
+    background-color: rgb(59, 236, 89);
+    border-color: greenyellow;
+    width: 250px;
+    height: 40px;
+    font-family: Arial;
+}
+
